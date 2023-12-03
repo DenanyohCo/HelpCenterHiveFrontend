@@ -24,7 +24,7 @@ export const siteConfig = {
     github: "https://github.com/theodenanyoh11",
     twitter: "https://twitter.com/MrDenanyoh",
     linkedin: "https://www.linkedin.com/in/theodenanyoh",
+    sponsor: "https://www.buymeacoffee.com/mrdenanyoh",
     // docs: "https://nextui.org",
-    sponsor: "https://www.buymeacoffee.com/mrdenanyohite",
   },
 };

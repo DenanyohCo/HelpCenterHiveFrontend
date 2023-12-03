@@ -86,8 +86,7 @@ export const Navbar = () => {
 						href={siteConfig.links.sponsor}
 						startContent={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
-					>
-						Buy me a coffee
+					>Buy me a coffee
 					</Button>
 				</NavbarItem>
 			</NavbarContent>
@@ -106,7 +105,7 @@ export const Navbar = () => {
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
 								color="foreground"
-								href="#"
+								href={item.href}
 								size="lg"
 							>
 								{item.label}
