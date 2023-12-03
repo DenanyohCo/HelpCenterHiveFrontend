@@ -26,7 +26,7 @@ import {
 	SearchIcon,
 } from "@/components/icons";
 
-import { Logo, Logo2 } from "@/components/icons";
+import { Logo, Logo2, Logo3} from "@/components/icons";
 import { ThemeSwitch } from "./theme-switch";
 
 
@@ -37,7 +37,7 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-						<Logo2 />
+						<Logo3 />
 						<p className="font-bold text-inherit">HELP CENTER HIVE</p>
 					</NextLink>
 				</NavbarBrand>
