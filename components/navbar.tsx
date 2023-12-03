@@ -27,6 +27,7 @@ import {
 } from "@/components/icons";
 
 import { Logo, Logo2 } from "@/components/icons";
+import { ThemeSwitch } from "./theme-switch";
 
 
 export const Navbar = () => {
@@ -68,6 +69,7 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
 						<TwitterIcon className="text-default-500" />
 					</Link>
+					<ThemeSwitch />
 					{/* <Link isExternal href={siteConfig.links.discord} aria-label="Discord">
 						<DiscordIcon className="text-default-500" />
 					</Link>
@@ -93,6 +95,7 @@ export const Navbar = () => {
 				<Link isExternal href={siteConfig.links.linkedin} aria-label="Twitter">
 						<LinkedInIcon className="text-default-500" />
 				</Link>
+				<ThemeSwitch />
 				<NavbarMenuToggle />
 			</NavbarContent>
 
