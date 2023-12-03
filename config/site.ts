@@ -5,10 +5,10 @@ export const siteConfig = {
   description:
     "Looking for help center page inspiration? Look no further. Help Center Hive curates and showcases the best help center and support center designs on the web.",
   navItems: [
-    // {
-    //   label: "About",
-    //   href: "/about",
-    // },
+    {
+      label: "About",
+      href: "/about",
+    },
   ],
   navMenuItems: [
     {
