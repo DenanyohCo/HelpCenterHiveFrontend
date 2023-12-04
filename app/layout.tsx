@@ -6,6 +6,7 @@ import { Providers } from './providers'
 import { Navbar } from '../components/navbar'
 import Link from 'next/link'
 import Footer from '@/components/footer'
+import { GoogleTagManager } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
 	title: {
@@ -45,6 +46,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             </div>
         </Providers>
       </body>
+      <GoogleTagManager gtmId='GTM-5KRQN3CN' />
     </html>
   )
 }
